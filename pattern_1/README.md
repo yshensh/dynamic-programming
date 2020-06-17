@@ -1,34 +1,40 @@
 # 0/1 Knapsack
+
+## 0/1 Knapsack
 knapsack.py
 
 Given two integer arrays to represent weights and profits of ‘N’ items, we need to find a subset of these items which will give us maximum profit such that their cumulative weight is not more than a given number ‘C’. Each item can only be selected once, which means either we put an item in the knapsack or we skip it.
 
-# Equal Subset Sum Partition
+## Equal Subset Sum Partition
+
 
 Given a set of positive numbers, find if we can partition it into two subsets such that the sum of elements in both the subsets is equal.
 
 Example 1:
-```
+
+```bash
 Input: {1, 2, 3, 4}
 Output: True
 Explanation: The given set can be partitioned into two subsets with equal sum: {1, 4} & {2, 3}
 ```
 
 Example 2:
-```
+
+```bash
 Input: {1, 1, 3, 4, 7}
 Output: True
 Explanation: The given set can be partitioned into two subsets with equal sum: {1, 3, 4} & {1, 7}
 ```
 
 Example 3:
-```
+
+```bash
 Input: {2, 3, 4, 6}
 Output: False
 Explanation: The given set cannot be partitioned into two subsets with equal sum.
 ```
 
-# Subset Sum
+## Subset Sum
 
 Given a set of positive numbers, determine if there exists a subset whose sum is equal to a given number ‘S’.
 
@@ -53,15 +59,16 @@ Output: False
 The given set does not have any subset whose sum is equal to '6'.
 ```
 
-# Minimum Subset Sum Difference
+## Minimum Subset Sum Difference
 
 Given a set of positive numbers, partition the set into two subsets with a minimum difference between their subset sums.
 
 Example 1:
-```
+
+```bash
 Input: {1, 2, 3, 9}
 Output: 3
-Explanation: We can partition the given set into two subsets where minimum absolute difference 
+Explanation: We can partition the given set into two subsets where minimum absolute difference
 between the sum of numbers is '3'. Following are the two subsets: {1, 2, 3} & {9}.
 ```
 
@@ -69,7 +76,7 @@ Example 2:
 ```
 Input: {1, 2, 7, 1, 5}
 Output: 0
-Explanation: We can partition the given set into two subsets where minimum absolute difference 
+Explanation: We can partition the given set into two subsets where minimum absolute difference
 between the sum of number is '0'. Following are the two subsets: {1, 2, 5} & {7, 1}.
 ```
 
@@ -77,11 +84,11 @@ Example 3:
 ```
 Input: {1, 3, 100, 4}
 Output: 92
-Explanation: We can partition the given set into two subsets where minimum absolute difference 
+Explanation: We can partition the given set into two subsets where minimum absolute difference
 between the sum of numbers is '92'. Here are the two subsets: {1, 3, 4} & {100}.
 ```
 
-# Count of Subset Sum
+## Count of Subset Sum
 
 Given a set of positive numbers, find the total number of subsets whose sum is equal to a given number ‘S’.
 
@@ -100,7 +107,8 @@ Output: 3
 The given set has '3' subsets whose sum is '9': {2, 7}, {1, 7, 1}, {1, 2, 1, 5}
 ```
 
-# Target Sum
+## Target Sum
+
 Given a set of positive numbers (non zero) and a target sum ‘S’. Each number should be assigned either a ‘+’ or ‘-’ sign. We need to find out total ways to assign symbols to make the sum of numbers equal to target ‘S’.
 
 Example 1:
