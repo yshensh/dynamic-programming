@@ -1,12 +1,12 @@
 # 0/1 Knapsack
 
 ## 0/1 Knapsack
-knapsack.py
+knapsack.py [time and space complexity of O(N*S)]
 
 Given two integer arrays to represent weights and profits of ‘N’ items, we need to find a subset of these items which will give us maximum profit such that their cumulative weight is not more than a given number ‘C’. Each item can only be selected once, which means either we put an item in the knapsack or we skip it.
 
 ## Equal Subset Sum Partition
-
+partition_set.py [time and space complexity of O(N*S)]
 
 Given a set of positive numbers, find if we can partition it into two subsets such that the sum of elements in both the subsets is equal.
 
@@ -35,6 +35,8 @@ Explanation: The given set cannot be partitioned into two subsets with equal sum
 ```
 
 ## Subset Sum
+subset_sum.py [time and space complexity of O(N*S)]
+subset_sum_optimized.py [optimized space complexity of O(S)]
 
 Given a set of positive numbers, determine if there exists a subset whose sum is equal to a given number ‘S’.
 
@@ -60,6 +62,7 @@ The given set does not have any subset whose sum is equal to '6'.
 ```
 
 ## Minimum Subset Sum Difference
+partition_set_min.py [time and space complexity of O(N*S)]
 
 Given a set of positive numbers, partition the set into two subsets with a minimum difference between their subset sums.
 
@@ -89,6 +92,8 @@ between the sum of numbers is '92'. Here are the two subsets: {1, 3, 4} & {100}.
 ```
 
 ## Count of Subset Sum
+count_subsets.py [time and space complexity of O(N*S)]
+count_subsets_optimized.py [optimized space complexity of O(S)]
 
 Given a set of positive numbers, find the total number of subsets whose sum is equal to a given number ‘S’.
 
