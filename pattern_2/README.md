@@ -4,6 +4,25 @@
 
 Given two integer arrays to represent weights and profits of ‘N’ items, we need to find a subset of these items which will give us maximum profit such that their cumulative weight is not more than a given number ‘C’. We can assume an infinite supply of item quantities; therefore, each item can be selected multiple times.
 
+Let’s take the example of Merry, who wants to carry some fruits in the knapsack to get maximum profit. Here are the weights and profits of the fruits:
+```
+Items: { Apple, Orange, Melon }
+Weights: { 1, 2, 3 }
+Profits: { 15, 20, 50 }
+Knapsack capacity: 5
+```
+
+Let’s try to put different combinations of fruits in the knapsack, such that their total weight is not more than 5.
+
+```
+5 Apples (total weight 5) => 75 profit
+1 Apple + 2 Oranges (total weight 5) => 55 profit
+2 Apples + 1 Melon (total weight 5) => 80 profit
+1 Orange + 1 Melon (total weight 5) => 70 profit
+```
+
+This shows that 2 apples + 1 melon is the best combination, as it gives us the maximum profit and the total weight does not exceed the capacity.
+
 
 ## Rod Cutting
 
