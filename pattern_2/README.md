@@ -1,6 +1,7 @@
 # Unbounded Knapsack
 
 ## Unbounded Knapsack
+knapsack.py
 
 Given two integer arrays to represent weights and profits of ‘N’ items, we need to find a subset of these items which will give us maximum profit such that their cumulative weight is not more than a given number ‘C’. We can assume an infinite supply of item quantities; therefore, each item can be selected multiple times.
 
@@ -25,6 +26,7 @@ This shows that 2 apples + 1 melon is the best combination, as it gives us the m
 
 
 ## Rod Cutting
+rod_cutting.py
 
 Given a rod of length ‘n’, we are asked to cut the rod and sell the pieces in a way that will maximize the profit. We are also given the price of every piece of length ‘i’ where ‘1 <= i <= n’.
 
@@ -49,6 +51,7 @@ This shows that we get the maximum price (14) by cutting the rod into two pieces
 
 
 ## Coin Change
+count_change.py
 
 Given an infinite supply of ‘n’ coin denominations and a total money amount, we are asked to find the total number of distinct ways to make up that amount.
 
@@ -67,7 +70,9 @@ Explanation: There are five ways to make the change for '5', here are those ways
 
 Given a number array to represent different coin denominations and a total amount ‘T’, we need to find all the different ways to make a change for ‘T’ with the given coin denominations. We can assume an infinite supply of coins, therefore, each coin can be chosen multiple times.
 
+
 ## Minimum Coin Change
+min_coin_change.py
 
 Given an infinite supply of ‘n’ coin denominations and a total money amount, we are asked to find the minimum number of coins needed to make up that amount.
 
@@ -89,6 +94,7 @@ Given a number array to represent different coin denominations and a total amoun
 
 
 ## Maximum Ribbon Cut
+max_ribbon_cut.py
 
 We are given a ribbon of length ‘n’ and a set of possible ribbon lengths. Now we need to cut the ribbon into the maximum number of pieces that comply with the above-mentioned possible lengths. Write a method that will return the count of pieces.
 
