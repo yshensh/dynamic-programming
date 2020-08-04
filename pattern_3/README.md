@@ -1,6 +1,7 @@
 # Fibonacci Numbers
 
 ## Fibonacci numbers
+fibonacci.py 
 
 Write a function to calculate the nth Fibonacci number.
 
@@ -16,6 +17,7 @@ Given that: Fib(0) = 0, and Fib(1) = 1
 
 
 ## Staircase
+staircase.py
 
 Given a stair with ‘n’ steps, implement a method to count how many possible ways are there to reach the top of the staircase, given that, at every step you can either take 1 step, 2 steps, or 3 steps.
 
@@ -32,11 +34,11 @@ Number of stairs (n) : 4
 Number of ways = 7
 Explanation: Following are the seven ways we can climb : {1,1,1,1}, {1,1,2}, {1,2,1}, {2,1,1}, 
 {2,2}, {1,3}, {3,1}
-Let’s first start with a recursive brute-force solution.
 ```
 
 
 ## Number factors
+number_factors.py
 
 Given a number ‘n’, implement a method to count how many possible ways there are to express ‘n’ as the sum of 1, 3, or 4.
 
@@ -57,6 +59,7 @@ Explanation: Following are the six ways we can express 'n' : {1,1,1,1,1}, {1,1,3
 
 
 ## Minimum jumps to reach the end
+min_jumps.py
 
 Given an array of positive numbers, where each element represents the max number of jumps that can be made forward from that element, write a program to find the minimum number of jumps needed to reach the end of the array (starting from the first element). If an element is 0, then we cannot move through that element.
 
@@ -76,6 +79,7 @@ Explanation: Starting from index '0', we can reach the last index through: 0->1-
 
 
 ## Minimum jumps with fee
+min_jumps_fee.py
 
 Given a staircase with ‘n’ steps and an array of ‘n’ numbers representing the fee that you have to pay if you take the step. Implement a method to calculate the minimum fee required to reach the top of the staircase (beyond the top-most step). At every step, you have an option to take either 1 step, 2 steps, or 3 steps. You should assume that you are standing at the first step.
 
@@ -99,6 +103,7 @@ The total fee we have to pay will be (2+3).
 
 
 ## House thief
+max_steal.py
 
 Given a number array representing the wealth of ‘n’ houses, determine the maximum amount of money the thief can steal without alerting the security system.
 
