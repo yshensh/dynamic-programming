@@ -1,4 +1,4 @@
-# dynamic-programmming
+# dynamic-programming
 
 Playground to practice Dynamic Programming (DP) problems.
 
